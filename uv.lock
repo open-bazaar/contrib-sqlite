@@ -34,7 +34,7 @@ wheels = [
 
 [[package]]
 name = "bazaar-contrib-sqlite"
-version = "0.3.0rc9"
+version = "0.3.0rc10"
 source = { editable = "." }
 dependencies = [
     { name = "aiosqlite" },
