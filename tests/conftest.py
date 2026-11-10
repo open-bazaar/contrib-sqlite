@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 from bazaar_contrib_timer import TIMER, Timer
-from bazaar_contrib_timer_wheel import timer_wheel
+from bazaar_contrib_timer.wheel import timer_wheel
 from bazaar_core import Composition, Context, Contrib, ContribEntry, ContribHub
 
 

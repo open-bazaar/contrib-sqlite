@@ -48,7 +48,7 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "aiofiles" },
-    { name = "bazaar-contrib-timer-wheel" },
+    { name = "bazaar-contrib-timer" },
     { name = "blockbuster" },
     { name = "pyright" },
     { name = "pytest" },
@@ -70,7 +70,7 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "aiofiles", specifier = ">=25.1.0" },
-    { name = "bazaar-contrib-timer-wheel", specifier = "~=0.3.0rc9" },
+    { name = "bazaar-contrib-timer", specifier = "~=0.3.0rc26" },
     { name = "blockbuster", specifier = ">=1.5.29,<1.6" },
     { name = "pyright", specifier = "==1.1.414" },
     { name = "pytest", specifier = ">=8.3.0" },
@@ -94,28 +94,15 @@ wheels = [
 
 [[package]]
 name = "bazaar-contrib-timer"
-version = "0.3.0rc9"
+version = "0.3.0rc26"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "bazaar-core" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/37/02/1a74e1fe9fc7c0284d9642a3d82422b7683c46208186b808f22bf82df7cb/bazaar_contrib_timer-0.3.0rc9.tar.gz", hash = "sha256:ea2fab5c99e65a821dda2230520a3e9b344aa9c3b4374693f9c7746baa478642", size = 7237, upload-time = "2026-10-29T09:10:35.543Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/30/fa/9c8e0e78ddfb929ab379f618e55e76cf79bb9590d21339615d61f8fdda37/bazaar_contrib_timer-0.3.0rc9-py3-none-any.whl", hash = "sha256:d81cc65cf72a9e2c3f36c39e5be827f60f4e64e581ff16f108b495759db334ed", size = 8502, upload-time = "2026-10-29T09:10:34.611Z" },
-]
-
-[[package]]
-name = "bazaar-contrib-timer-wheel"
-version = "0.3.0rc9"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "bazaar-contrib-timer" },
     { name = "bazaar-core" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5e/db/67fc5393a20dcf1932ce8a34636c45d12045783153b85c8a2dfb052be48a/bazaar_contrib_timer_wheel-0.3.0rc9.tar.gz", hash = "sha256:b10d5928d808e7308c5c7c384ba82cd73dbf2013cc22a0be0d6690c9ecf82151", size = 8156, upload-time = "2026-10-29T09:10:49.171Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/46/32/1f1df5e93f1bbd50fe44d769760e47e2e6c3bb6b37c75546fd46a2b867e4/bazaar_contrib_timer-0.3.0rc26.tar.gz", hash = "sha256:c5fe27a341c975498b647280e5ee2a1b04384480f2bd9437ac58721614f24acc", size = 10012, upload-time = "2026-11-10T09:28:50.502Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cd/a1/3fc594d214aff4ff8fe18da2fa7fca5567dfa1eb2ed925ac7acda8456146/bazaar_contrib_timer_wheel-0.3.0rc9-py3-none-any.whl", hash = "sha256:a03ab54dac8908595f2b580a02eee3df0e4d457e2c2e201a1c1c582dcc567674", size = 9613, upload-time = "2026-10-29T09:10:48.402Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/6d/b8e662b6caee938c4f03ddfa1165eab6c854d46073284ec5560093955334/bazaar_contrib_timer-0.3.0rc26-py3-none-any.whl", hash = "sha256:d2636654f855c2d433232cdbeca57648db8182d6050d6d67320a677c26f93452", size = 12177, upload-time = "2026-11-10T09:28:49.625Z" },
 ]
 
 [[package]]

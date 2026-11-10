@@ -16,7 +16,7 @@ from bazaar_contrib_storage import (
     database,
     storage,
 )
-from bazaar_contrib_timer_wheel import timer_wheel
+from bazaar_contrib_timer.wheel import timer_wheel
 from bazaar_core import Composition, Context, Contrib, ContribEntry, ContribHub
 
 from bazaar_contrib_sqlite import sqlite
